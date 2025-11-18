@@ -1,6 +1,6 @@
 baseURL = 'https://norishide.github.io/portfolio/'
 languageCode = 'ja'
-title = 'My Portfolio'
+title = 'Noly Higashide'
 theme = 'PaperMod'
 publishDir = 'docs'
 
@@ -15,9 +15,26 @@ publishDir = 'docs'
   ShowRssButtonInSectionTermList = true
   UseHugoToc = true
 
-[params.homeInfoParams]
-  Title = "Welcome to my portfolio"
-  Content = "This is a sample site using PaperMod theme"
+#[params.homeInfoParams]
+#  Title = "Welcome to my portfolio"
+#  Content = "This is a sample site using PaperMod theme"
+
+[params.profileMode]
+  enabled = true
+#  title = "Noriyuki (Noly) Higashide"
+  subtitle = "Scientist"
+  imageUrl = "/portfolio/images/profile.jpg"
+  imageWidth = 360
+  imageHeight = 360
+  imageTitle = "Profile Picture"
+
+[[params.profileMode.buttons]]
+  name = "Posts"
+  url = "/portfolio/posts/"
+
+[[params.profileMode.buttons]]
+  name = "GitHub"
+  url = "https://github.com/norishide"
 
 [[menu.main]]
   identifier = "home"
