@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home on My Portfolio</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on My Portfolio</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 18 Nov 2025 20:30:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>初めての投稿</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Tue, 18 Nov 2025 20:30:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;h2 id=&#34;ようこそ&#34;&gt;ようこそ！&lt;/h2&gt;
+&lt;p&gt;これはPaperModテーマを使用したサンプル投稿です。&lt;/p&gt;
+&lt;h3 id=&#34;特徴&#34;&gt;特徴&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;シンプルで美しいデザイン&lt;/li&gt;
+&lt;li&gt;ダークモード対応&lt;/li&gt;
+&lt;li&gt;レスポンシブデザイン&lt;/li&gt;
+&lt;li&gt;高速な表示速度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;コードブロックのサンプル&#34;&gt;コードブロックのサンプル&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;hello_world&lt;/span&gt;():
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hello_world()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;PaperModテーマを使って、快適にブログを書くことができます。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
