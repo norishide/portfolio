@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://norishide.github.io/portfolio/categories/blog/</loc>
+    <lastmod>2025-11-18T20:30:00+09:00</lastmod>
+  </url><url>
+    <loc>https://norishide.github.io/portfolio/categories/</loc>
+    <lastmod>2025-11-18T20:30:00+09:00</lastmod>
+  </url><url>
+    <loc>https://norishide.github.io/portfolio/tags/hello/</loc>
+    <lastmod>2025-11-18T20:30:00+09:00</lastmod>
+  </url><url>
+    <loc>https://norishide.github.io/portfolio/</loc>
+    <lastmod>2025-11-18T20:30:00+09:00</lastmod>
+  </url><url>
+    <loc>https://norishide.github.io/portfolio/posts/</loc>
+    <lastmod>2025-11-18T20:30:00+09:00</lastmod>
+  </url><url>
+    <loc>https://norishide.github.io/portfolio/tags/sample/</loc>
+    <lastmod>2025-11-18T20:30:00+09:00</lastmod>
+  </url><url>
+    <loc>https://norishide.github.io/portfolio/tags/</loc>
+    <lastmod>2025-11-18T20:30:00+09:00</lastmod>
+  </url><url>
+    <loc>https://norishide.github.io/portfolio/posts/first-post/</loc>
+    <lastmod>2025-11-18T20:30:00+09:00</lastmod>
+  </url>
+</urlset>

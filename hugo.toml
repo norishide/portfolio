@@ -1,7 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://norishide.github.io/portfolio/'
 languageCode = 'ja'
 title = 'My Portfolio'
 theme = 'PaperMod'
+publishDir = 'docs'
 
 [params]
   defaultTheme = "auto"
