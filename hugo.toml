@@ -22,11 +22,15 @@ publishDir = 'docs'
 [params.profileMode]
   enabled = true
 #  title = "Noriyuki (Noly) Higashide"
-  subtitle = "Scientist"
+  subtitle = "Science of Science researcher"
   imageUrl = "/portfolio/images/profile.jpg"
   imageWidth = 360
   imageHeight = 360
   imageTitle = "Profile Picture"
+
+[[params.profileMode.buttons]]
+  name = "Profile"
+  url = "/portfolio/profile/"
 
 [[params.profileMode.buttons]]
   name = "Posts"
@@ -47,3 +51,9 @@ publishDir = 'docs'
   name = "Posts"
   url = "/posts/"
   weight = 20
+
+[[menu.main]]
+  identifier = "profile"
+  name = "Profile"
+  url = "/profile/"
+  weight = 15
