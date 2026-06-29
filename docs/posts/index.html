@@ -179,6 +179,7 @@
 
       if (
         !href ||
+        link.closest("header.header") ||
         href.charAt(0) === "#" ||
         href.indexOf("mailto:") === 0 ||
         href.indexOf("tel:") === 0
