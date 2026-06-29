@@ -4,27 +4,20 @@ date: 2026-06-28
 draft: false
 ---
 
-## Noriyuki (Noly) Higashide
-
-I study how scientific knowledge becomes innovation and societal impact. My work combines Science of Science, computational social science, network science, bibliometrics, and AI-assisted large-scale literature analysis to map hidden connections between science, startups, and technology development.
+My work explores how AI can turn scientific knowledge into real-world impact. I believe we can design more intelligent systems for innovation.
 
 ## Current Roles
 
-- Impact Fellow, Northwestern Innovation Institute
-- Postdoctoral Research Fellow, Northwestern University - Kellogg School of Management
-- Founder CEO, fukan
+- Impact Fellow, [Northwestern Innovation Institute](https://niinstitute.kellogg.northwestern.edu/), Kellogg School of Management, Northwestern University
 
-## Research Interests
+## Interests
 
+- AI for Science
+- Intelligence for Innovation
 - Science of Science
-- AI in Science
 - Computational Social Science
 - Network Science
-- Bibliometrics
-- Innovation Studies
-- Knowledge Translation
-- Startup Ecosystem
-- Research Policy
+- Data Science
 
 ## Education
 
@@ -35,6 +28,7 @@ I study how scientific knowledge becomes innovation and societal impact. My work
 
 ## Links
 
+- [Download CV (PDF)](/portfolio/cv_260628.pdf)
 - [Google Scholar](https://scholar.google.co.jp/citations?user=g4Qp0HgAAAAJ&hl=ja)
 - [LinkedIn](https://www.linkedin.com/in/noriyuki-higashide-0221/)
 - [GitHub](https://github.com/norishide)

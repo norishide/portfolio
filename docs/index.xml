@@ -13,25 +13,19 @@
       <link>https://norishide.github.io/portfolio/profile/</link>
       <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://norishide.github.io/portfolio/profile/</guid>
-      <description>&lt;h2 id=&#34;noriyuki-noly-higashide&#34;&gt;Noriyuki (Noly) Higashide&lt;/h2&gt;
-&lt;p&gt;I study how scientific knowledge becomes innovation and societal impact. My work combines Science of Science, computational social science, network science, bibliometrics, and AI-assisted large-scale literature analysis to map hidden connections between science, startups, and technology development.&lt;/p&gt;
+      <description>&lt;p&gt;My work explores how AI can turn scientific knowledge into real-world impact. I believe we can design more intelligent systems for innovation.&lt;/p&gt;
 &lt;h2 id=&#34;current-roles&#34;&gt;Current Roles&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Impact Fellow, Northwestern Innovation Institute&lt;/li&gt;
-&lt;li&gt;Postdoctoral Research Fellow, Northwestern University - Kellogg School of Management&lt;/li&gt;
-&lt;li&gt;Founder CEO, fukan&lt;/li&gt;
+&lt;li&gt;Impact Fellow, &lt;a href=&#34;https://niinstitute.kellogg.northwestern.edu/&#34;&gt;Northwestern Innovation Institute&lt;/a&gt;, Kellogg School of Management, Northwestern University&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;research-interests&#34;&gt;Research Interests&lt;/h2&gt;
+&lt;h2 id=&#34;interests&#34;&gt;Interests&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;AI for Science&lt;/li&gt;
+&lt;li&gt;Intelligence for Innovation&lt;/li&gt;
 &lt;li&gt;Science of Science&lt;/li&gt;
-&lt;li&gt;AI in Science&lt;/li&gt;
 &lt;li&gt;Computational Social Science&lt;/li&gt;
 &lt;li&gt;Network Science&lt;/li&gt;
-&lt;li&gt;Bibliometrics&lt;/li&gt;
-&lt;li&gt;Innovation Studies&lt;/li&gt;
-&lt;li&gt;Knowledge Translation&lt;/li&gt;
-&lt;li&gt;Startup Ecosystem&lt;/li&gt;
-&lt;li&gt;Research Policy&lt;/li&gt;
+&lt;li&gt;Data Science&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
 &lt;ul&gt;
@@ -42,33 +36,12 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://norishide.github.io/portfolio/cv_260628.pdf&#34;&gt;Download CV (PDF)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://scholar.google.co.jp/citations?user=g4Qp0HgAAAAJ&amp;amp;hl=ja&#34;&gt;Google Scholar&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/noriyuki-higashide-0221/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/norishide&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://x.com/nolyhigashide&#34;&gt;X / Twitter&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>初めての投稿</title>
-      <link>https://norishide.github.io/portfolio/posts/first-post/</link>
-      <pubDate>Tue, 18 Nov 2025 20:30:00 +0900</pubDate>
-      <guid>https://norishide.github.io/portfolio/posts/first-post/</guid>
-      <description>&lt;h2 id=&#34;ようこそ&#34;&gt;ようこそ！&lt;/h2&gt;
-&lt;p&gt;これはPaperModテーマを使用したサンプル投稿です。&lt;/p&gt;
-&lt;h3 id=&#34;特徴&#34;&gt;特徴&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;シンプルで美しいデザイン&lt;/li&gt;
-&lt;li&gt;ダークモード対応&lt;/li&gt;
-&lt;li&gt;レスポンシブデザイン&lt;/li&gt;
-&lt;li&gt;高速な表示速度&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;コードブロックのサンプル&#34;&gt;コードブロックのサンプル&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;hello_world&lt;/span&gt;():
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hello_world()
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
-&lt;p&gt;PaperModテーマを使って、快適にブログを書くことができます。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
