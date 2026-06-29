@@ -20,8 +20,8 @@ publishDir = 'docs'
 #  title = "Noriyuki (Noly) Higashide"
   subtitle = "Tracing the routes from knowledge to impact."
   imageUrl = "/portfolio/images/profile.jpg"
-  imageWidth = 448
-  imageHeight = 196
+  imageWidth = 800
+  imageHeight = 933
   imageTitle = "Profile Picture"
 
 [[params.profileMode.buttons]]

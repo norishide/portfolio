@@ -1,8 +1,12 @@
 .profile img {
-    width: min(92vw, 448px);
-    height: min(40.25vw, 196px);
+    width: min(92vw, 800px);
+    height: min(calc(92vw * 7 / 6), 933px);
     border-radius: 8px;
     object-fit: cover;
     object-position: center;
     transform: none;
+}
+
+.profile h1 {
+    margin-top: 1.5em;
 }
