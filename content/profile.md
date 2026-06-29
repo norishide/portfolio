@@ -29,7 +29,7 @@ My work explores how AI can turn scientific knowledge into real-world impact. I 
 ## Links
 
 - [Download CV (PDF)](/portfolio/cv_260628.pdf)
-- [Google Scholar](https://scholar.google.co.jp/citations?user=g4Qp0HgAAAAJ&hl=ja)
+- [Google Scholar](https://scholar.google.co.jp/citations?user=AprdLM8AAAAJ)
 - [LinkedIn](https://www.linkedin.com/in/noriyuki-higashide-0221/)
 - [GitHub](https://github.com/norishide)
 - [X / Twitter](https://x.com/nolyhigashide)
