@@ -1,6 +1,6 @@
 .profile img {
     width: min(92vw, 800px);
-    height: min(calc(92vw * 7 / 6), 933px);
+    height: min(calc(92vw * 3 / 8), 300px);
     border-radius: 8px;
     object-fit: cover;
     object-position: center;
