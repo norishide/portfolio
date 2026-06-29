@@ -144,7 +144,33 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("a[href]").forEach(function (link) {
+      var href = link.getAttribute("href");
+
+      if (
+        !href ||
+        href.charAt(0) === "#" ||
+        href.indexOf("mailto:") === 0 ||
+        href.indexOf("tel:") === 0
+      ) {
+        return;
+      }
+
+      link.setAttribute("target", "_blank");
+
+      var rel = (link.getAttribute("rel") || "").split(/\s+/).filter(Boolean);
+      ["noopener", "noreferrer"].forEach(function (value) {
+        if (rel.indexOf(value) === -1) {
+          rel.push(value);
+        }
+      });
+      link.setAttribute("rel", rel.join(" "));
+    });
+  });
+</script>
+
 
 <script>
     let menu = document.getElementById('menu');

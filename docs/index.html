@@ -150,29 +150,6 @@
         <span>Tracing the routes from knowledge to impact.</span><div class="social-icons" >
 </div>
 
-        <div class="buttons">
-            <a class="button" href="/portfolio/profile/" rel="noopener" title="Profile">
-                <span class="button-inner">
-                    Profile
-                </span>
-            </a>
-            <a class="button" href="/portfolio/posts/" rel="noopener" title="Posts">
-                <span class="button-inner">
-                    Posts
-                </span>
-            </a>
-            <a class="button" href="https://github.com/norishide" rel="noopener" title="GitHub">
-                <span class="button-inner">
-                    GitHub&nbsp;
-                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
-                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
-                        <path d="M15 3h6v6"></path>
-                        <path d="M10 14L21 3"></path>
-                    </svg>
-                </span>
-            </a>
-        </div>
     </div>
 </div>
 
@@ -191,7 +168,33 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("a[href]").forEach(function (link) {
+      var href = link.getAttribute("href");
+
+      if (
+        !href ||
+        href.charAt(0) === "#" ||
+        href.indexOf("mailto:") === 0 ||
+        href.indexOf("tel:") === 0
+      ) {
+        return;
+      }
+
+      link.setAttribute("target", "_blank");
+
+      var rel = (link.getAttribute("rel") || "").split(/\s+/).filter(Boolean);
+      ["noopener", "noreferrer"].forEach(function (value) {
+        if (rel.indexOf(value) === -1) {
+          rel.push(value);
+        }
+      });
+      link.setAttribute("rel", rel.join(" "));
+    });
+  });
+</script>
+
 
 <script>
     let menu = document.getElementById('menu');
