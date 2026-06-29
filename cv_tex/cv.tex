@@ -1,0 +1,313 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[a4paper,margin=16mm]{geometry}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\setmainfont{Helvetica Neue}
+\definecolor{accent}{HTML}{2D5BB9}
+\definecolor{textgray}{HTML}{333333}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\thepage/\pageref{LastPage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2.5pt}
+\setlength{\emergencystretch}{2em}
+\setlist[itemize]{leftmargin=*, itemsep=1pt, topsep=2pt}
+\setlist[enumerate]{leftmargin=*, itemsep=3pt, topsep=3pt}
+\newlist{publist}{enumerate}{1}
+\setlist[publist]{
+  label=\textbf{[\arabic*]},
+  ref=\arabic*,
+  labelindent=0pt,
+  labelsep=0.55em,
+  leftmargin=*,
+  align=left,
+  widest=20,
+  itemsep=3pt,
+  topsep=3pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\titleformat{\section}
+  {\Large\bfseries}
+  {}
+  {0pt}
+  {}
+  [\vspace{-2pt}{\color{accent}\titlerule}]
+
+\titleformat{\subsection}
+  {\large\bfseries\color{accent}}
+  {}
+  {0pt}
+  {}
+
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\titlespacing*{\subsection}{0pt}{7pt}{2pt}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}p{0.19\textwidth}}
+\newcolumntype{R}{>{\raggedright\arraybackslash}X}
+\newcommand{\entryspacing}{\linespread{1.04}\selectfont}
+
+\newcommand{\cvitem}[2]{%
+  \begin{tabularx}{\textwidth}{@{}L R@{}}
+  #1 &
+  \begin{minipage}[t]{\linewidth}
+  \entryspacing
+  #2
+  \end{minipage}
+  \end{tabularx}\vspace{1.5pt}
+}
+
+\newcommand{\role}[4]{%
+  \cvitem{#1}{\textbf{#2}, #3\\#4}
+}
+
+\newcommand{\rolebullets}[5]{%
+  \begin{tabularx}{\textwidth}{@{}L R@{}}
+  #1 &
+  \begin{minipage}[t]{\linewidth}
+  \entryspacing
+  \textbf{#2}, #3%
+  \if\relax\detokenize{#4}\relax\else\\#4\fi
+  \begin{itemize}[topsep=1pt, itemsep=1pt, parsep=0pt, partopsep=0pt]
+    #5
+  \end{itemize}\vspace{2pt}
+  \end{minipage}
+  \end{tabularx}\vspace{1.5pt}
+}
+
+\newcommand{\pubitem}[1]{%
+  \item #1
+}
+
+\begin{document}
+
+{\Huge\bfseries Noriyuki (Noly) Higashide}\\[-1pt]
+
+\begin{tabularx}{\textwidth}{@{}p{0.17\textwidth}X@{}}
+Current affiliation &
+Impact Fellow, Northwestern Innovation Institute, Kellogg School of Management, Northwestern University\\
+Location & 1800 Sherman Avenue, Suite 3000, Evanston, Illinois, United States\\
+E-mail & \href{mailto:norishide@gmail.com}{norishide@gmail.com}\\
+LinkedIn & \href{https://www.linkedin.com/in/noriyuki-higashide-0221/}{linkedin.com/in/noriyuki-higashide-0221}\\
+X / Twitter & \href{https://x.com/nolyhigashide}{@nolyhigashide}\\
+GitHub & \href{https://github.com/norishide}{github.com/norishide}\\
+Google Scholar & \href{https://scholar.google.co.jp/citations?user=AprdLM8AAAAJ}{scholar.google.co.jp/citations?user=AprdLM8AAAAJ}\\
+Update & 2026-06-28
+\end{tabularx}
+
+
+
+\section{Interests}
+\cvitem{Summary}{I explore how metascience and AI can turn scientific knowledge into innovation, entrepreneurship, and real-world societal impact.}
+\cvitem{Keywords}{Science of Science, AI for Science, Computational Social Science, Network Science, Technology Management, Knowledge Translation, Startup Ecosystem, Translational Research}
+
+
+
+\section{Education}
+\cvitem{2020.09 - 2025.09}{\textbf{The University of Tokyo}, Tokyo, Japan\\
+Ph.D. in Technology Management for Innovation, Graduate School of Engineering\\
+Advisor: Prof. Ichiro Sakata, GPA: 3.9/4.0, with Department Chair's Award for my dissertation\\}
+\cvitem{2013.04 - 2016.03}{\textbf{The University of Tokyo}, Tokyo, Japan\\
+M.Sc. in Electrical and Electronic Engineering, Graduate School of Engineering\\
+Advisor: Prof. Yuichiro K. Kato, GPA: 3.4/4.0}
+\cvitem{2011.04 - 2013.03}{\textbf{Chiba University}, Chiba, Japan\\
+B.Eng. in Electrical and Electronic Engineering, School of Engineering, GPA: 3.6/4.0}
+\cvitem{2006.04 - 2011.03}{\textbf{Hakodate National College of Technology}, Hokkaido, Japan\\
+A.Eng. in Electrical and Electronic Engineering, GPA: 3.7/4.0}
+
+
+\section{Experience}
+% Current role added from LinkedIn screenshot supplied 2026-06-28.
+\role{2026.04 -}{Impact Fellow}{Northwestern Innovation Institute, Kellogg School of Management, Northwestern University}{Evanston, Illinois, United States.}
+% Current role added from LinkedIn screenshot supplied 2026-06-28.
+\role{2026.04 -}{Postdoctoral Research Fellow}{Center for Science of Science and Innvoation, Kellogg School of Management, Northwestern University}{Evanston, Illinois, United States.}
+\rolebullets{2024.10 -}{Founder / CEO}{fukan Inc.}{Tokyo, Japan.}{
+  \item Building an AI tool that identifies optimal collaboration partners for innovation activities.
+  \item Original CV wording: Run the firm that develops specialized AI solutions that extract scientific and technological information from extensive literature databases, streamlining corporate innovation and R\&D investment decisions.
+}
+\rolebullets{2020.10 - 2024.09}{Senior Data Scientist / Project Manager}{SRE Holdings Corporation}{Tokyo, Japan.}{
+  \item In Sony-funded post-IPO startup, directed and taught hands-on AI training programs for executives at leading financial and pharmaceutical companies.
+  \item Drove new business development in climate tech, formulated over 10 consulting proposals, and conducted team-building activities.
+  \item Identified investor behavior trends in major brokerage firms by network analysis and machine learning with a self-developed data handling system on cloud for terabyte-scale financial data.
+}
+\rolebullets{2019.07 - 2024.09}{Consultant / Data Scientist}{Freelance}{Tokyo, Japan.}{
+  \item Suggested digital transformation direction to a major insurance company based on insights from sales and call data analysis.
+  \item Advised on the construction of a chat system utilizing generative AI.
+  \item Designed IoT system architecture composed of cameras, edge devices, and video analysis cloud platforms.
+}
+\rolebullets{2016.10 - 2019.06}{Consultant / Data Scientist}{IBM Japan Ltd.}{Tokyo, Japan.}{
+  \item Led 6+ AI projects as a project manager and technical lead for major enterprise clients, specializing in chat system, speech recognition systems, and text data analysis.
+  \item Co-presented a project achievement as advanced case study on speech recognition AI with a client at an internal global conference IBM THINK 2019.
+  \item Contributed to community building by organizing internal hackathons.
+}
+\rolebullets{2015.07 - 2016.09}{Research Assistant Intern}{Sony Computer Science Laboratories Inc.}{Tokyo, Japan.}{
+  \item Supported to test a novel 3D lighting device; implemented electric circuits.
+}
+
+
+\section{List of Research Products}
+\subsection{Journal Articles}
+(\textdaggerdbl: Corresponding author)
+\begin{publist}
+\pubitem{N. Higashide\textdaggerdbl, K. Nishimoto, K. Asatani and I. Sakata, Asymmetric returns to basic-applied career shifts. \textit{Quantitative Science Studies} (2026).}
+\pubitem{N. Higashide\textdaggerdbl, T. Miura, Y. Tomokiyo, K. Asatani and I. Sakata, Mid-career pitfall of consecutive success in science. \textit{Scientific Reports} 14, 28172 (2024).}
+\pubitem{N. Higashide\textdaggerdbl, Y. Zhang, K. Asatani, T. Miura and I. Sakata, Quantifying advances from basic research to applied research in material science. \textit{Technovation} 135, 103050 (2023).}
+\pubitem{N. Higashide, M. Yoshida, T. Uda, A. Ishii and Y. K. Kato, Cold exciton electroluminescence from air-suspended carbon nanotube split-gate devices. \textit{Applied Physical Letter} 110, 191101 (2017).}
+\end{publist}
+
+\subsection{Conference Papers}
+\begin{publist}[resume]
+\pubitem{R. Kaku, K. Asatani, N. Higashide, I. Sakata, Theory-to-application transition in mathematics and computer science studies. 2024 Portland International Conference on Management Engineering and Technology (2024).}
+\pubitem{N. Higashide\textdagger, T. Miura\textdagger\ and I. Sakata, Different hot streaks for twin peaks in academic careers. Proceedings of International Conference of the International Society for Scientometrics and Informetrics 2023 (2023). (\textdagger equal contribution)}
+\pubitem{N. Higashide, K. Asatani and I. Sakata, Domestically interacted scientists drive nanocarbon applied research in China. 2023 Portland International Conference on Management Engineering and Technology (2023).}
+\pubitem{N. Higashide, K. Asatani and I. Sakata, Identifying quantitative research levels in nanocarbons using semi-automatically extracted vocabularies. 2022 Portland International Conference on Management Engineering and Technology (2022).}
+\end{publist}
+
+\subsection{Conference Presentations}
+\begin{publist}[resume]
+\pubitem{N. Higashide, H. Miyamoto, C. Mejia, I. Sakata, Y. Kajikawa, Academic Knowledge Accumulation Drives Venture Capital Investments. The 4th International Conference on Science of Science and Innovation (2025).}
+\pubitem{N. Higashide, K. Nishimoto, K. Asatani, I. Sakata, Basic-to-Applied Transitions Boost Scientific Impact. The 4th International Conference on Science of Science and Innovation (2025).}
+\pubitem{Y. Tomokiyo, T. Miura, N. Higashide, K. Asatani and I. Sakata, Quantitative evaluation of the degree of consecutive success extraction of the hot-streak model. The 38th Annual Conference of the Japanese Society for Artificial Intelligence (2024).}
+\pubitem{N. Higashide, H. Miyamoto, C. Mejia, I. Sakata and Y. Kajikawa, Understanding Venture Capital Investment Trends through Social and Academic Recognition. The 3rd International Conference on Science of Science and Innovation (2024).}
+\pubitem{N. Higashide, H. Miyamoto, C. Mejia and Y. Kajikawa, Diffusions and Interactions of Technological Trends in Academic Publications, Venture Capital Investment, and News. The 1st Meeting on Science of Science in Japan (2024).}
+\pubitem{N. Higashide\textdagger, T. Miura\textdagger, K. Asatani and I. Sakata, Hot Streaks Occur in Early and Late Career Stages Beyond Random. The 2nd International Conference on Science of Science and Innovation (2023). (\textdagger equal contribution)}
+\pubitem{N. Higashide, T. Uda, M. Yoshida, A. Ishii, Y. K. Kato, Electroluminescence from individual air-suspended carbon nanotubes within split-gate structures. APS March Meeting 2016, 61 Number 2 (2016).}
+\end{publist}
+
+\subsection{Working Paper}
+\begin{publist}[resume]
+\pubitem{T. Nagano, N. Higashide, G. Kurata, R. Tachibana, T. Nakayama, H. Shirouzu, Trial of junior high-School student speech recognition in collaborative learning, knowledge constructive Jigsaw method. Information Processing Society of Japan Technical Report, Spoken Language Processing 124 (2018).}
+\end{publist}
+
+\subsection{Media / Press}
+\begin{publist}[resume]
+\pubitem{Hot Streak - ``Exploration and Exploitation'' to create a series of hits. UTokyo Integrated Report 2023 - IR Cubed -, p78-79 (Nov. 2023).}
+\pubitem{Close to a Nobel Prize? Toshihide Amari's AI Research as the ``Sleeping Beauty''. Nikkei (Dec. 1, 2024).}
+\end{publist}
+
+\subsection{Working in Progress}
+\begin{publist}[resume]
+\pubitem{Technological hypes and venture capital investment: artificial intelligence, biotechnology, and cleantech. (Co-author; with H. Miyamoto and Y. Kajikawa).}
+\pubitem{Discovering startup-ready scientists from co-author networks. (Co-author).}
+\end{publist}
+
+
+
+\section{Academic Presentations}
+\cvitem{2025.06}{Poster. The 4th International Conference on Science of Science and Innovation, Copenhagen, Denmark.}
+\cvitem{2024.09}{Invited Seminar. The 85th JSAP Autumn Meeting 2024, Niigata, Japan.}
+\cvitem{2024.08}{Invited Presentation. MIT Quantum Measurement Group, Cambridge, MA, USA (via zoom).}
+\cvitem{2024.07}{Poster. The 3rd International Conference on Science of Science and Innovation, Washington, DC, USA.}
+\cvitem{2024.03}{Poster. The 1st Meeting on Science of Science, Tokyo, Japan.}
+\cvitem{2023.07}{Talk. 2023 Portland International Conference on Management Engineering and Technology, Monterrey, Mexico.}
+\cvitem{2023.07}{Talk. International Conference of the ISSI 2023, Bloomington, IN, USA.}
+\cvitem{2023.06}{Poster. The 2nd International Conference on Science of Science and Innovation, Evanston, IL, USA.}
+\cvitem{2022.08}{Talk. 2022 Portland International Conference on Management Engineering and Technology, Portland, OR, USA.}
+\cvitem{2016.03}{Talk. APS March Meeting 2016, Baltimore, MD, USA.}
+\cvitem{2015.02}{Poster. The 48th FNTG General Symposium, Tokyo, Japan.}
+
+
+\section{Academic Services and Community Projects}
+\subsection{Academic Services}
+\role{2026.04 -}{Journal Reviewer}{\textit{Quantitative Science Studies}}{}
+\role{2023.10 -}{Journal Reviewer}{\textit{Scientometrics}}{}
+\role{2023.01 -}{Journal Reviewer}{\textit{Technological Forecasting and Social Change}}{}
+\role{2023.01 - 2023.03}{Program Manager}{Deep Innovation Creation Ecosystem (DICE), School of Engineering, The University of Tokyo}{Coordinated educational tours to key venture capital and pharmaceutical sites in Boston and New York to understand the startup ecosystems in the U.S.}
+\role{2022.04 - 2022.09}{Teaching Assistant}{Deeptech Entrepreneurship Incubation Program, School of Engineering, The University of Tokyo}{Guided participants in strategic planning for Deeptech startups with a long-term vision for 2050.}
+\role{2014.04 - 2016.09}{Technical Assistant}{Institute of Engineering Innovation, The University of Tokyo}{Implemented automated electrical and optical measurement systems for nano-scale home-built fabricated devices.}
+
+\subsection{Community Projects}
+\role{2018.10 - 2026.09}{Technical Director / Board}{Approved Specified Nonprofit Corporation CALL4}{Provided technical oversight in litigation funding online web platform.}
+\role{2017.04 - 2017.09}{Program Organizer}{Watson Hackathon, IBM Japan Ltd.}{Hosted an enterprise-wide hackathon event to enhance understanding of AI solutions across business functions.}
+\role{2015.04 - 2016.09}{Program Chair}{Student Organization TEDxUTokyo}{Led to organize a cross-disciplinary, university-level conference with 500+ attendees and 16 speakers.}
+
+\section{Awards, Honors and Scholarships}
+\subsection{Awards}
+\cvitem{2026.03}{\textbf{Department Chair's Award} for my dissertation "Decoding Scientific Career Paths through Hot Streaks and Basic-Applied Research".}
+\cvitem{2023.06}{\textbf{Winner} in Knowledge Track, ICSSI Metascience Hackathon.}
+\cvitem{2022.06}{\textbf{CEO Award}, SRE Holdings Corporation. (Top 2\%)}
+\cvitem{2022.02}{\textbf{Best Business Plan}, Deeptech Entrepreneurship Incubation Program. (Top 2)}
+\cvitem{2020.03}{\textbf{Finalist} in New Venture Challenge, The University of Chicago.}
+
+\subsection{Honors}
+\cvitem{2018.05}{\textbf{Selected Member} for an exclusive tour to prestigious institutions in Singapore for recognizing professional contributions, IBM Japan Ltd. (Top 1\%)}
+\cvitem{2011.03}{\textbf{Special Commendation} for successfully organizing an alternative event for the cancelled school festival due to an infectious disease, HNCT. (Top 0.1\%)}
+
+\subsection{Scholarships}
+\cvitem{2013.04 - 2015.03}{Scholarship for Graduate Student, THE USHIO FOUNDATION. (Top 5\%)}
+\cvitem{2012.04 - 2015.03}{Kazuko Inoue Scholarship, Ningenjuku Foundation. (Top 10\%)}
+
+
+\section{Skills}
+\cvitem{Programming}{Python, MATLAB, SQL, JavaScript, Node.js, Java}
+\cvitem{Computing}{Unix, LaTeX, OriginLab, MS Office, Markdown}
+\cvitem{Language}{English (fluent), Japanese (native)}
+
+
+\section{Research Projects}
+\role{2023.05 - 2023.10}{AI and Flexible Electronics for Healthcare Business}{The University of Tokyo}{Executed development of a machine learning algorithm that estimates blood pressure from pulse waves measured by flexible organic photodetectors and ideation innovative business applications utilizing it. Advisor: Prof. Takao Someya and Prof. Yutaka Matsuo.}
+\role{2023.09 - 2023.10}{Summer School for Large Language Models}{The University of Tokyo}{Completed advanced training in generative AI and Large Language Models, implementing enhancements for NLP task precision. Advisor: Prof. Yutaka Matsuo.}
+\role{2017.10 - 2019.07}{Speech Recognition in Education}{IBM Japan Ltd.}{Developed speech recognition applications with AI using Node.js and Java; co-presented with a client on the practices of speech recognition in education at IBM Think 2019. Advisor: Ph.D. Ryuki Tachibana, Ph.D. Tohru Nagano and Prof. Hajime Shirouzu.}
+\role{2016.07 - 2017.06}{Across}{Personal Project}{Enhanced readability of the arXiv papers with smartphone reader app.}
+\role{2015.07 - 2016.09}{AnyLight}{Sony Computer Science Laboratories Inc.}{Engineered a next-generation lighting device, specializing in the design of optical lens arrays and the execution of electrical circuitry. Advisor: Ph.D. Yuichiro Takeuchi.}
+\role{2012.04 - 2013.03}{Undergraduate Thesis}{Chiba University}{Executed simulations of electron and phonon spatial distribution by Fortran.}
+\role{2010.04 - 2011.03}{Graduation Thesis}{Hakodate National College of Technology}{Created a simulation model to assess CO2 emission reduction in future power grid systems.}
+
+
+\section{Business Projects}
+\role{2023.08 - 2024.09}{Testing business hypotheses based on research outcomes}{}{Concretized a business hypothesis, that support innovation investment using techniques of the doctoral research, through hearings with leading venture capitals and major corporations.}
+\role{2021.10 - 2022.03}{Deeptech Entrepreneurship Incubation Program}{}{Crafted a startup business plan for decarbonization using advanced technology from The University of Tokyo, winning second place in a competition judged by experts including the university president and corporate executives.}
+\role{2019.10 - 2020.03}{Smartmil: business planning with Chicago University MBA}{}{Developed a SaaS business plan for dental clinic management, which won finalists in an accelerator programs New Venture Challenge.}
+\role{2019.03}{Quick AI prototyping in Bay Area}{}{Explored a startup idea using speech recognition AI with venture capitalists and engineers in Silicon Valley.}
+\role{2017.04 - 2017.08}{Business learning course in Keio University}{}{Collaborated with diverse professionals across various industry and ages, resulting co-authored recommendations for social issues.}
+
+
+\section{Selected Consulting Projects}
+\rolebullets{2022.07 - 2022.12}{Major Pharmaceutical Company}{AI Training for Executives}{}{
+  \item Designed and delivered four 1.5-hour training sessions (video and in-person), including content creation, video recording/editing, and lectures.
+  \item Adjusted content flexibly based on feedback from participants, collaborating with counterparts.
+  \item Addressed individual questions in detail, improving executive understanding of data and AI usage, resulting in high customer satisfaction.
+}
+\rolebullets{2021.01 - 2021.09}{Major Securities Company}{Python Data Analysis Training}{}{
+  \item Led the project from proposal to delivery, including planning, curriculum design, lecture material preparation, and participant evaluation.
+  \item Worked closely with the training office to ensure smooth progress.
+  \item Developed a skill assessment sheet to measure the training's impact, showing significant improvement in participants' data analysis skills, which satisfied the client.
+}
+\rolebullets{2018.10 - 2019.03}{HR Services Company}{Job Seeker and Job Matching}{}{
+  \item Managed an agile development process, clarifying customer needs through prototyping.
+  \item Developed a matching method using deep learning and natural language processing to estimate word similarity for matching job postings with job seekers.
+  \item Supported the development of an AI-powered matching service with advanced technical insights, earning customer satisfaction.
+}
+\rolebullets{2017.10 - 2018.06}{Major Content Company}{New Product Development}{}{
+  \item Designed dialogue functions for a chatbot system.
+  \item Conducted user interviews for qualitative evaluation of dialogue quality.
+  \item Collaborated with clients and partner companies to define specifications and manage the development schedule.
+  \item Identified challenges, proposed solutions, and contributed to the planning of new service features.
+}
+\rolebullets{2017.01 - 2017.12}{Major Manufacturer}{New Product Development}{}{
+  \item Designed and managed development processes in collaboration with partner companies.
+  \item Facilitated client meetings, identifying issues and defining specifications.
+  \item Designed dialogue functions for IoT systems used in conversational robots.
+  \item Conducted qualitative evaluations of dialogue functions and provided technical support over a year, leading to the successful product release.
+}
+
+\end{document}

@@ -6,9 +6,7 @@ draft: false
 
 My work explores how AI can turn scientific knowledge into real-world impact. I believe we can design more intelligent systems for innovation.
 
-## Current Roles
-
-- Impact Fellow, [Northwestern Innovation Institute](https://niinstitute.kellogg.northwestern.edu/), Kellogg School of Management, Northwestern University
+I now carry this work into the wild as an Impact Fellow at the [Northwestern Innovation Institute](https://niinstitute.kellogg.northwestern.edu/), Kellogg School of Management, Northwestern University.
 
 ## Interests
 
