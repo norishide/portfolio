@@ -2,8 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://norishide.github.io/portfolio/posts/gravity-model-basic-form/</loc>
+    <lastmod>2026-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://norishide.github.io/portfolio/tags/gravity-model/</loc>
+    <lastmod>2026-07-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://norishide.github.io/portfolio/</loc>
-    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://norishide.github.io/portfolio/tags/science-of-science/</loc>
+    <lastmod>2026-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://norishide.github.io/portfolio/tags/</loc>
+    <lastmod>2026-07-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://norishide.github.io/portfolio/posts/</loc>
     <lastmod>2026-06-28T00:00:00+00:00</lastmod>
@@ -12,7 +24,5 @@
     <lastmod>2026-06-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://norishide.github.io/portfolio/categories/</loc>
-  </url><url>
-    <loc>https://norishide.github.io/portfolio/tags/</loc>
   </url>
 </urlset>

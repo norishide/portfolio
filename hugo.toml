@@ -41,3 +41,10 @@ publishDir = 'docs'
   name = "Profile"
   url = "/profile/"
   weight = 15
+
+[markup.goldmark.extensions.passthrough]
+  enable = true
+
+[markup.goldmark.extensions.passthrough.delimiters]
+  block = [['\[', '\]'], ['$$', '$$']]
+  inline = [['\(', '\)']]
