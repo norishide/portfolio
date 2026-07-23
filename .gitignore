@@ -1,5 +1,6 @@
 tmp/
 .DS_Store
+cv_tex/*
 *.aux
 *.fdb_latexmk
 *.fls
