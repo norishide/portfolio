@@ -1,5 +1,6 @@
 ---
 title: "Reading the Wind"
+aliases: ["/posts/gravity-model-basic-form/"]
 date: 2026-07-22
 draft: false
 math: true
