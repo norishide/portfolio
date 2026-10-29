@@ -1,0 +1,14 @@
+.post-content .profile-photo {
+    margin: 0 auto 1.5rem;
+    text-align: center;
+}
+
+.post-content .profile-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    display: inline-block;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
