@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home on Noly Higashide</title>
-    <link>http://localhost:1313/portfolio/</link>
+    <link>https://norishide.github.io/portfolio/</link>
     <description>Recent content in Home on Noly Higashide</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://norishide.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reading the Wind</title>
-      <link>http://localhost:1313/portfolio/posts/reading-the-wind/</link>
+      <link>https://norishide.github.io/portfolio/posts/reading-the-wind/</link>
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/posts/reading-the-wind/</guid>
+      <guid>https://norishide.github.io/portfolio/posts/reading-the-wind/</guid>
       <description>The proverb isogaba maware was born on Lake Biwa: when the wind is bad, the long bridge at Seta beats the fast boat from Yabase. On choosing research topics, reading currents, and the people who walk toward Seta while the lake is still quiet.</description>
     </item>
     <item>
       <title>Profile</title>
-      <link>http://localhost:1313/portfolio/profile/</link>
+      <link>https://norishide.github.io/portfolio/profile/</link>
       <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/profile/</guid>
+      <guid>https://norishide.github.io/portfolio/profile/</guid>
       <description>&lt;figure class=&#34;profile-photo&#34;&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/portfolio/images/profile_photo.jpg&#34;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://norishide.github.io/portfolio/images/profile_photo.jpg&#34;
          alt=&#34;Noly Higashide&#34; width=&#34;200&#34; height=&#34;200&#34;/&gt; 
 &lt;/figure&gt;
 
@@ -29,9 +29,9 @@
 &lt;p&gt;I now carry this work into the wild as an Impact Fellow at the &lt;a href=&#34;https://niinstitute.kellogg.northwestern.edu/&#34;&gt;Northwestern Innovation Institute&lt;/a&gt;, Kellogg School of Management, Northwestern University.&lt;/p&gt;
 &lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1162/QSS.a.497&#34;&gt;Asymmetric returns to basic-applied career shifts&lt;/a&gt;. N. Higashide, K. Nishimoto, K. Asatani and I. Sakata. &lt;em&gt;Quantitative Science Studies&lt;/em&gt; (2026).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1162/QSS.a.497&#34;&gt;Asymmetric returns from basic-to-applied career shifts&lt;/a&gt;. N. Higashide, K. Nishimoto, K. Asatani and I. Sakata. &lt;em&gt;Quantitative Science Studies&lt;/em&gt; 7, 1472–1484 (2026).&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://doi.org/10.1038/s41598-024-77206-y&#34;&gt;Mid-career pitfall of consecutive success in science&lt;/a&gt;. N. Higashide, T. Miura, Y. Tomokiyo, K. Asatani and I. Sakata. &lt;em&gt;Scientific Reports&lt;/em&gt; 14, 28172 (2024).&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1016/j.technovation.2024.103050&#34;&gt;Quantifying advances from basic research to applied research in material science&lt;/a&gt;. N. Higashide, Y. Zhang, K. Asatani, T. Miura and I. Sakata. &lt;em&gt;Technovation&lt;/em&gt; 135, 103050 (2023).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1016/j.technovation.2024.103050&#34;&gt;Quantifying advances from basic research to applied research in material science&lt;/a&gt;. N. Higashide, Y. Zhang, K. Asatani, T. Miura and I. Sakata. &lt;em&gt;Technovation&lt;/em&gt; 135, 103050 (2024).&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://doi.org/10.1063/1.4983278&#34;&gt;Cold exciton electroluminescence from air-suspended carbon nanotube split-gate devices&lt;/a&gt;. N. Higashide, M. Yoshida, T. Uda, A. Ishii and Y. K. Kato. &lt;em&gt;Applied Physics Letters&lt;/em&gt; 110, 191101 (2017).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;interests&#34;&gt;Interests&lt;/h2&gt;
@@ -52,7 +52,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/portfolio/cv_260813.pdf&#34;&gt;Download CV (PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://norishide.github.io/portfolio/cv_260813.pdf&#34;&gt;Download CV (PDF)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://scholar.google.co.jp/citations?user=AprdLM8AAAAJ&#34;&gt;Google Scholar&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/noriyuki-higashide-0221/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/norishide&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;

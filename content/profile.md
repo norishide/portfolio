@@ -12,9 +12,9 @@ I now carry this work into the wild as an Impact Fellow at the [Northwestern Inn
 
 ## Publications
 
-- [Asymmetric returns to basic-applied career shifts](https://doi.org/10.1162/QSS.a.497). N. Higashide, K. Nishimoto, K. Asatani and I. Sakata. *Quantitative Science Studies* (2026).
+- [Asymmetric returns from basic-to-applied career shifts](https://doi.org/10.1162/QSS.a.497). N. Higashide, K. Nishimoto, K. Asatani and I. Sakata. *Quantitative Science Studies* 7, 1472–1484 (2026).
 - [Mid-career pitfall of consecutive success in science](https://doi.org/10.1038/s41598-024-77206-y). N. Higashide, T. Miura, Y. Tomokiyo, K. Asatani and I. Sakata. *Scientific Reports* 14, 28172 (2024).
-- [Quantifying advances from basic research to applied research in material science](https://doi.org/10.1016/j.technovation.2024.103050). N. Higashide, Y. Zhang, K. Asatani, T. Miura and I. Sakata. *Technovation* 135, 103050 (2023).
+- [Quantifying advances from basic research to applied research in material science](https://doi.org/10.1016/j.technovation.2024.103050). N. Higashide, Y. Zhang, K. Asatani, T. Miura and I. Sakata. *Technovation* 135, 103050 (2024).
 - [Cold exciton electroluminescence from air-suspended carbon nanotube split-gate devices](https://doi.org/10.1063/1.4983278). N. Higashide, M. Yoshida, T. Uda, A. Ishii and Y. K. Kato. *Applied Physics Letters* 110, 191101 (2017).
 
 ## Interests
