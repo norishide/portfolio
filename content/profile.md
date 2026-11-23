@@ -35,7 +35,7 @@ I now carry this work into the wild as an Impact Fellow at the [Northwestern Inn
 
 ## Links
 
-- [Download CV (PDF)](/portfolio/cv_260813.pdf)
+- [Download CV (PDF)](/portfolio/cv_261122.pdf)
 - [Google Scholar](https://scholar.google.co.jp/citations?user=AprdLM8AAAAJ)
 - [LinkedIn](https://www.linkedin.com/in/noriyuki-higashide-0221/)
 - [GitHub](https://github.com/norishide)
